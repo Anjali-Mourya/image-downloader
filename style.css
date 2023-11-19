@@ -1,0 +1,258 @@
+*{
+    padding: 0px 0px;
+    margin:0px 0px;
+    font-family: Arial;
+    border:border-box;
+    align-items: center;;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('back_img.gif');
+}
+header{
+    height: 70px;
+    width: 100%;
+    /* border:1px solid #fff; */
+}
+
+header .nav_items {
+    /* border:1px solid  #fff; */
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 600px;
+    padding-top: 20px;
+} 
+span{
+    display: none;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+}
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+header nav a:hover{
+    cursor: pointer;
+    background-color: rgb(184, 184, 184, .1);
+    border:1.5px solid #fff;
+    
+}
+
+.dropbtn {
+    position: relative;
+    top: 250px;
+    left: 400px;
+    background-color: #50534e;
+    color: white;
+    padding: 10px;
+    margin: 16px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ef350b;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    
+  }
+  
+  #myInput:focus {
+    outline: 3px solid #ddd;
+}
+  
+  .front {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+   top: 250px;
+   left: 400px;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover {
+    background-color: #ddd;
+}
+.show {
+    display: block;
+}
+.front h1{
+    color: #fff;
+}
+.front .heading{
+    position: relative;
+    top: 250px;
+    left: 400px;
+}
+section{
+    height: 200%;
+    width: 100%;
+    /* border:1px solid #fff; */
+    position: relative;
+    top: 400px;
+}
+.heading_3{
+    color: #fff;
+    
+}
+.h3{
+    position: relative;
+    top: 360px;
+    left: 10px;
+}
+section .box_1  .img_item{
+    width: 335px;
+    height: 400px;
+    padding: 5px 5px;
+}
+section .box_1  .img_item:hover{
+    border: 1px solid #fff;
+    border-radius: 5px ;
+}
+section .box_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+}
+.download .bi{
+    position: relative;
+    top: 200px;
+    right: 65rem;
+    top: 10rem;
+    color: #fff;
+    
+}
+.download .bi:hover{
+   cursor: pointer;
+   margin: 5px 5px;
+   background: yellow;
+}  
+.two{
+    position: relative;
+    left: 315px;
+}
+.three{
+    position: relative;
+    left: 620px;
+}
+.four{
+    position: relative;
+    left: 950px;
+}
+footer{
+    position: relative;
+    top: 450px;
+    height: 400px;
+    width: 100%;
+    /* border:1px solid #fff; */
+    background-color: rgba(0, 0, 255, 0.27)55, 55, 200;
+    padding-left: 10px;
+}
+.head_3{
+    color: #fff;
+}
+.para{
+    color: #ffffff52;
+}
+.footer{
+    background-color: rgba(23, 24, 30, 0.726);
+    height: 250px;
+}
+.headi_3{
+    color: #fff;
+}
+.facebook{
+    color: #ffffff52;
+}
+.facebook .bi-facebook{
+    color: blue;
+}
+.connect{
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+}
+.bi-twitter {
+    color: rgb(105, 144, 243);
+}
+.bi-instagram{
+    color: rgb(201, 63, 109);
+}
+.bi-pinterest{
+    color:red ;
+    
+}
+.footer_2{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.contact{
+    position: relative;
+    left: 800px;
+    bottom: 310px;
+}
+.bi-house-door-fill{
+    color: #fff;
+}
+.con_info{
+    color: #ffffff52;
+}
+.bi-phone{
+    color: #ffff;
+}
+.bi-envelope{
+    color: #ffff;
+}
+.bi-c-circle{
+    color: #ffffff52;
+}
+.copy{
+    color: #ffffff52;
+}

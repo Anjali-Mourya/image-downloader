@@ -2,4 +2,4 @@
 <br>
 This is my first image downloader and uploader website project
 <br>
-Author- Anjali Mourya
+<b>Author-</b> Anjali Mourya
